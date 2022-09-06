@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./icon/icons8-login-100.png" type="image/x-icon" id="favicon1">
+    <title>login form</title>
+</head>
+<body id="body">
+    <div id="mood" class="mood">
+        <button onclick="moon()">
+            <img src="./icon/icons8-moon-and-stars-100.png" id="imod">
+        </button>
+    </div>
+    <div id="container" class="container">
+        <div id="singuplist" class="singuplist">
+            <label>
+                username:<br>
+                <input type="text">
+            </label>
+            <label>
+                email:<br>
+                <input type="email">
+            </label>
+            <label>
+                password:<br>
+                <input type="password">
+            </label>
+            <button class="button btn">sing up</button>
+        </div>
+        <div id="singup" class="singup">
+            <button onclick="singup()" class="button" id="sing-btn">sing up</button>
+        </div>
+        <div id="singinlist" class="singinlist">
+            <label>
+                username:<br>
+                <input type="text">
+            </label>
+            <label>
+                password:<br>
+                <input type="password">
+            </label>
+            <button class="button btn">sing in</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

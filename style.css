@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background:url(./background/4893706.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    font-size: 126%;
+    justify-content: space-between;
+    color: #fff;
+}
+.sunmood{
+    display: flex;
+    flex-direction: column;
+    background:url(./background/highlights-circles-shiny-bright-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    font-size: 126%;
+    justify-content: space-between;
+    color: #000;
+}
+.singuplist{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.container{
+    background-color: rgb(60, 79, 95,0.3);
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 16rem;
+}
+.singinlist{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.singup{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(60, 79, 95,0.3);
+}
+.button{
+    align-self: center;
+    font-size: large;
+}
+.btn{
+    margin-top: 3%;
+}
+input{
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color:aqua ;
+    background-color: rgb(60, 79, 95,0.1);
+    width: 80%;
+    color: #fff;
+}
+input:focus{
+    outline:none ;
+}
+#imod{
+    width: 55%;
+}
+.mood{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+.singupmove{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(60, 79, 95,0.6);
+    position: relative;
+    left: 0%;
+    animation: move 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes move{
+    form{
+        left: 0%;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 8%;
+        transform: rotate(360deg);
+    }
+}
